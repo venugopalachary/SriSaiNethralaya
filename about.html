@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>About || Oktilcal || Optometrist & Eye Care Responsive HTML 5 Template</title>
+	<title>About Us</title>
 
 	<!-- responsive meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,11 +29,50 @@
     <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16">
 
-    <!-- Fixing Internet Explorer-->
-    <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <script src="assets/js/html5shiv.js"></script>
-    <![endif]-->
+	<style>
+	.header-left .logo {
+		position: relative;
+		display: block;
+		padding: 20px 0;
+	}
+	.sticky-header .logo {
+		position: relative;
+		display: block;
+		padding: 0px 0 24px;
+	}
+	
+	.single-team-member .title-holder p {
+    color: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+.center-list li{
+	list-style: none;
+	text-align: center;
+	}
+	
+	 .logo a img {
+    width:250px ;
+	height:90px;
+}
+
+
+    .center-list
+    {
+    list-style:none;
+    width:auto;
+    display:block;
+    text-align:center;
+    }
+    
+    
+   a{
+    color:white;
+   }
+
+	</style>
     
 </head>
 
@@ -42,8 +81,7 @@
 
 <div class="preloader"></div>
 
-
-<!-- Main header-->
+<!---header-->
 <header class="main-header header-style-one">
    
     <!--Start Header Top--> 
@@ -51,7 +89,7 @@
         <div class="container">
             <div class="outer-box clearfix">
                 <div class="header-top-left pull-left">
-                    <p>80 broklyn golden street, New York. USA</p>
+                    <p>BN Reddy Rd, Balaji Colony Phase 2, Hastinapuram, Hyderabad, Telangana 500035</p>
                 </div>
                 <div class="header-top-right pull-right">
                     <div class="header-social-link">
@@ -71,7 +109,7 @@
                         </ul>
                     </div>
                     <div class="button-box">
-                        <a href="#">Book Appointment</a>
+                        <a href="contact.html">Book Appointment</a>
                     </div>
                 </div>    
             </div>
@@ -84,7 +122,9 @@
                 <!--Start Header Left-->
                 <div class="header-left clearfix pull-left">
                     <div class="logo">
-                        <a href="index.html"><img src="assets/images/resources/logo.png" alt="Awesome Logo" title=""></a>
+                        <a href="index.html">
+                            <img src="assets/images/logo/dark.png" 
+                            alt="Awesome Logo" style="width:250px" title=""></a>
                     </div>
                 </div>
                 <!--End Header Left-->
@@ -103,47 +143,32 @@
                         <nav class="main-menu style1 navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="dropdown"><a href="#">Home</a>
-                                        <ul>
-                                            <li><a href="index.html">Home Page 01</a></li>
-                                            <li><a href="index-2.html">Home Page 02</a></li>
-                                            <li><a href="index-box-layout.html">Home Boxed Layout</a></li>
-                                            <li><a href="index-rtl.html">Home RTL</a></li>
-                                            <li><a href="index-onepage.html">Home OnePage</a></li>
-                                            <li class="dropdown"><a href="#">Header Styles</a>
-                                                <ul>
-                                                    <li><a href="index.html">Header Style One</a></li>
-                                                    <li><a href="index-2.html">Header Style Two</a></li>
-                                                </ul>    
-                                            </li>
+                                    <li ><a href="index.html">Home</a>
+                                     </li>  
+                                    <li class="current"><a href="about.html">About Us</a>
+                                        
+                                    </li>
+                                    <li class="dropdown"><a href="treatment.html">Treatments</a>
+                                        <ul><!--html edit-->
+                                           <li><a href="index.html">General Eye Checkup</a></li>
+                                            <li><a href="index.html">Cataract Services</a></li>
+                                            <li><a href="index.html">ICL surgery</a></li>
+                                            <li><a href="index.html">Cornea</a></li>
+                                            <li><a href="index.html">DCT/DCR surgery</a></li>
+                                            <li><a href="index.html">Galucoma Services</li>
+                                            <li><a href="index.html">Squint Correction</a></li>
+											<li><a href="index.html">Orbit & Oculoplasty</a></li>
+                                            <li><a href="index.html">ROP Screening</a></li>
+											<li><a href="index.html">Medical Retina</a></li>
+                                            <li><a href="index.html">Contact lens & Low vision Aids</a></li>
+											<li><a href="index.html">Dry Eye Management & Computer Vision Syndrome</a></li>
+                                            <li><a href="index.html">Pediatric Eye Checkup</a></li>
+											
+											
                                         </ul>
                                     </li>
-                                    <li class="dropdown current"><a href="#">Pages</a>
-                                        <ul>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="doctors.html">Our Doctors</a></li>
-                                            <li><a href="faq.html">Faq’s</a></li>   
-                                            <li><a href="404-page.html">Error Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Services</a>
-                                        <ul>
-                                            <li><a href="services.html">View All Services</a></li>
-                                            <li><a href="ser-surgical-procedure.html">Surgical Procedure</a></li>
-                                            <li><a href="ser-all-laser-lasik.html">All Laser Lasik</a></li>
-                                            <li><a href="ser-cornea-glaucoma.html">Cornea & Glaucoma</a></li>
-                                            <li><a href="ser-eye-surgery.html">Eye Surgery</a></li>
-                                            <li><a href="ser-eye-test-care.html">Eye Test Care</a></li>
-                                            <li><a href="ser-contact-lenses.html">Contact Lenses</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">News</a>
-                                    	<ul>
-                                            <li><a href="blog.html">Latest News</a></li>
-                                            <li><a href="blog-single.html">News Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                   
+                                    <li ><a href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>                        
@@ -155,8 +180,9 @@
                             <span class="icon-customer-service thm-clr"></span>
                         </div>
                         <div class="title">
-                            <a href="tel:+11987654321">666 888 0000</a>
-                            <p>Mon - Sat: 11:00am to 8:00pm</p>
+                            <a href="tel:+918008060217">+91 80080 60217</a>
+                            <p>Mon - Sat: 09:30am to 08:30pm</p>
+							<p>Sun: 09:30am to 02:00pm</p>
                         </div>
                     </div>
                     
@@ -166,7 +192,7 @@
             </div>  
         </div>
     </div>
-    <!--End header -->
+<!--header end-->
     
     <!--Sticky Header-->
     <div class="sticky-header">
@@ -174,7 +200,7 @@
             <div class="clearfix">
                 <!--Logo-->
                 <div class="logo float-left">
-                    <a href="index.html" class="img-responsive"><img src="assets/images/resources/logo.png" alt="" title=""></a>
+                    <a href="index.html" class="img-responsive"><img src="assets/images/logo/dark.png" style = "width:250px;height:100px" alt="" title=""></a>	
                 </div>
                 <!--Right Col-->
                 <div class="right-col float-right">
@@ -194,7 +220,8 @@
         <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
 
         <nav class="menu-box">
-            <div class="nav-logo"><a href="index.html"><img src="assets/images/resources/mobilemenu-logo.png" alt="" title=""></a></div>
+            <div class="nav-logo"><a href="index.html"><img 
+            src="assets/images/logo/light.png" alt="" title=""></a></div>
             <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             <!--Social Links-->
             <div class="social-links">
@@ -212,134 +239,40 @@
 </header>
 
 
-<!--Start breadcrumb area-->     
-<section class="breadcrumb-area" style="background-image: url(assets/images/breadcrumb/breadcrumb-1.jpg);">
-    <div class="layer-outer-icon" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
-        <img src="assets/images/icon/icon-breadcrumb.png" alt="Icon">
-    </div>
+
+<section class="welcome-area style2">
     <div class="container">
         <div class="row">
-            <div class="col-xl-12">
-                <div class="inner-content clearfix">
-                    <div class="breadcrumb-menu wow slideInDown animated" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                        <ul class="clearfix">
-                            <li><a href="index.html">Home</a></li>
-                            <li class="active">About Us</li>
-                        </ul>    
-                    </div>
+           
+            <div class="col-xl-7">
+                <div class="welcome-image-box style2">
+                    <img src="assets/images/resources/welcome-3.jpg" alt="Awesome Image">
                     
-                    <div class="title wow slideInUp animated" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                       <h2>About Us</h2>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--End breadcrumb area-->
-
-<!--Start About Style1 Area-->
-<section class="about-style1-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="about-style1-text-box">
-                    <div class="sec-title">
-                        <h2><span>Learn</span> more about our oktilcal<br> eye care clinic</h2>
-                    </div>
-                    <div class="inner-contant">
-                        <div class="text-box">
-                            <p>There are many variations of pass of lorem ipsum available but the majority have suffered alteration in some form. Injected humour randomised words which don't look even slightly believable you need to be sure there isn't anything embarrassing. Praesent arcu gravida vehicula est node maecenas loareet.</p>
-                        </div>
-                    </div>    
-                </div>
-                
-                <div class="about-style1-image-box">
-                    <div class="row">
-                        <div class="col-xl-5">
-                            <div class="single-image-box image1">
-                                <img src="assets/images/about/about-1.jpg" alt="Awesome Image">
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-12">
-                            <div class="single-image-box image2">
-                                <img src="assets/images/about/about-2.jpg" alt="Awesome Image">
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-12">
-                            <div class="single-image-box">
-                                <img src="assets/images/about/about-3.jpg" alt="Awesome Image">
-                                <div class="overlay-content">
-                                    <div class="icon"><span class="icon-vision-1"></span></div>
-                                    <h2>Trusted by more<br> than <span>8700</span> happy<br> patients</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-                      
-            </div>
-        </div> 
-    </div>    
-</section>
-<!--End About Style1 Area-->
-
-<!--Start Partner Style3 Area-->
-<section class="partner-style3-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="partner-box-style3">
-                    <!--Start Single Partner Logo Box Style3-->
-                    <div class="single-partner-logo-box-style3">
-                        <a href="#"><img src="assets/images/brand/brand-v2-1.png" alt="Awesome Image"></a>
-                    </div>
-                    <!--End Single Partner Logo Box Style3-->
-                    <!--Start Single Partner Logo Box Style3-->
-                    <div class="single-partner-logo-box-style3">
-                        <a href="#"><img src="assets/images/brand/brand-v2-2.png" alt="Awesome Image"></a>
-                    </div>
-                    <!--End Single Partner Logo Box Style3-->
-                    <!--Start Single Partner Logo Box Style3-->
-                    <div class="single-partner-logo-box-style3">
-                        <a href="#"><img src="assets/images/brand/brand-v2-3.png" alt="Awesome Image"></a>
-                    </div>
-                    <!--End Single Partner Logo Box Style3-->
-                    <!--Start Single Partner Logo Box Style3-->
-                    <div class="single-partner-logo-box-style3">
-                        <a href="#"><img src="assets/images/brand/brand-v2-4.png" alt="Awesome Image"></a>
-                    </div>
-                    <!--End Single Partner Logo Box Style3-->
-                    <!--Start Single Partner Logo Box Style3-->
-                    <div class="single-partner-logo-box-style3">
-                        <a href="#"><img src="assets/images/brand/brand-v2-5.png" alt="Awesome Image"></a>
-                    </div>
-                    <!--End Single Partner Logo Box Style3-->
-                </div>
-            </div>
-        </div>
-    </div>
-</section> 
-<!--End Partner Style3 Area-->
-
-<!--Start Slogan Style3 Area-->
-<section class="slogan-style3-area" style="background-image: url(assets/images/parallax-background/slogan-style3-area-bg.jpg)">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="slogan-content-style3 paroller">
-                    <div class="title">
-                        <h2><span>For a clear</span> tomorrow, Bring<br> their world into focus</h2>
-                    </div>
-                    <div class="btns-box">
-                        <a class="btn-one" href="#"><span class="txt">Discover More<i class="fa fa-angle-double-right round" aria-hidden="true"></i></span></a>
-                    </div> 
                 </div>    
-            </div>    
+            </div>
+            
+            <div class="col-xl-5">
+                <div class="welcome-content-box style2">
+                    <div class="sec-title">
+                        <h2><span>Dr.</span> Dasari Santosh Yadav </h2>
+                    </div>
+                    <div class="inner-content">
+                        <h3>Your Trusted Eye Care Specialist</h3>
+                        <div class="text">
+                            <p>Are you looking for an experienced and compassionate eye doctor to take care of your vision needs? Look on further! Allow us to introduce you to Dr. Dasari Santosh Yadav, a dedicated and highly skilled ophthalmologist who is committed to providing top-notch eye care services.</p>
+                        </div>
+                       
+                    </div>    
+                </div>    
+            </div>
+            
         </div>
     </div>
 </section>
+
+
+
+
 <!--End Slogan Style3 Area-->   
 
 <!--Start Team Style2 Area-->
@@ -359,219 +292,106 @@
         </div>
         <div class="row">
             <!--Start Single Team Member-->
-            <div class="col-xl-4 col-lg-4">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
                 <div class="single-team-member wow animated fadeInUp" data-wow-delay="0.1s">
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="assets/images/team/team-v2-1.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one bg2"></div>
-                        </div>
-                    </div>
+                    
                     <div class="title-holder">
-                        <div class="left">
-                            <h3><a href="#">Michale Hardson</a></h3> 
-                            <p>Specialist</p>     
+                        <div class="center">
+                            <h3 style="text-align:center;"><a href="#">Specialized Services</a></h3> 
+                            <p style="text-align:justify;">As an accomplished eye care specialist, Dr. Dasari Santosh Yadav offers a comprehensive range of services to cater to the diverse needs of his patients. Whether it's routine eye exams, diagnosing and treating eye diseases, or performing delicate eye surgeries, rest assured that you will receive personalized and attentive care under Dr. Dasari Santosh Yadav's expertise.</p>     
                         </div>
-                        <div class="right">
-                            <div class="team-social-links">
-                                <ul>
-                                    <li>
-                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>      
+                         
                     </div>
                 </div>   
             </div>
             <!--End Single Team Member-->  
             <!--Start Single Team Member-->
-            <div class="col-xl-4 col-lg-4">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
                 <div class="single-team-member wow animated fadeInUp" data-wow-delay="0.1s">
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="assets/images/team/team-v2-2.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one bg2"></div>
-                        </div>
-                    </div>
                     <div class="title-holder">
-                        <div class="left">
-                            <h3><a href="#">Christine Rose</a></h3> 
-                            <p>Specialist</p>     
+                        <div class="center">
+                            <h3 style="text-align:center;"><a href="#">A Patient-Centric Approach</a></h3> 
+                            <p style="text-align:justify;">At the heart of Dr. Dasari Santosh Yadav's practice is a patient-centric approach. He understands that each patient is unique and deserves individualized attention. Dr. Dasari Santosh Yadav takes the time to listen to your concerns, thoroughly explains diagnoses and treatment options, and empowers you to make informed decisions about your eye health.</p>     
+     
                         </div>
-                        <div class="right">
-                            <div class="team-social-links">
-                                <ul>
-                                    <li>
-                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>      
+                        
                     </div>
                 </div>   
             </div>
             <!--End Single Team Member-->  
             <!--Start Single Team Member-->
-            <div class="col-xl-4 col-lg-4">
+            <div class="col-xl-4 col-lg-4 co-md-4 col-sm-4">
                 <div class="single-team-member wow animated fadeInUp" data-wow-delay="0.1s">
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="assets/images/team/team-v2-3.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one bg2"></div>
-                        </div>
-                    </div>
+                  
                     <div class="title-holder">
-                        <div class="left">
-                            <h3><a href="#">David Cooper</a></h3> 
-                            <p>Specialist</p>     
+                        <div class="center">
+                            <h3 style="text-align:center;"><a href="#">Cutting-Edge Technology</a></h3> 
+                            <p style="text-align:justify;">Keeping up with the latest advancements in ophthalmology is of utmost importance to Dr.Dasari Santosh yadav . Equipped with state-of-the-art technology and modern diagnostic tools, Dr.Dasari Santosh yadav's Hospital "Sri Sai Nethralaya"ensures accurate assessments and precise treatments for optimal results.</p>
+                                 
                         </div>
-                        <div class="right">
-                            <div class="team-social-links">
-                                <ul>
-                                    <li>
-                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>      
+                      
                     </div>
                 </div>   
             </div>
             <!--End Single Team Member-->  
               
         </div>
+		
+		<div class="row">
+		   <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
+		   
+		   </div>
+		   <div class="col-xl-4 col-lg-4 co-md-4 col-sm-4">
+                <div class="single-team-member wow animated fadeInUp" data-wow-delay="0.1s">
+                  
+                    <div class="title-holder">
+                        <div class="center">
+                            <h3 style="text-align:center;"><a href="#">A Trusted Team</a></h3> 
+                            <p style="text-align:justify;">Supported by a team of dedicated and caring professionals, Dr. Dasari Santosh yadav's hospital "sri sai nethralaya"provides a warm and welcoming environment for all patients. From the moment you step into the Hospital until you leave, you can expect friendly faces and efficient service.</p>
+                                 
+                        </div>
+                      
+                    </div>
+                </div>   
+            </div>
+			<div class="col-xl-4 col-lg-4 co-md-4 col-sm-4">
+                <div class="single-team-member wow animated fadeInUp" data-wow-delay="0.1s">
+                  
+                    <div class="title-holder">
+                        <div class="center">
+                            <h3 style="text-align:center;"><a href="#">Community Involvement</a></h3> 
+                            <p style="text-align:justify;">Beyond the confines of the "Sri Sai Nethralaya" Dr. Dasari Santosh Yadav believes in giving back to the community. He actively participates in local eye health initiatives, educational programs, and awareness campaigns to promote eye health and prevent vision problems.</p>
+                                 
+                        </div>
+                      
+                    </div>
+                </div>   
+            </div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
+			
+			</div>
+		
+		
+		</div>
     </div>
 </section>
 <!--End Team Style2 Area-->
 
 
 <!--Start Welcome Area-->
-<section class="welcome-area style2">
-    <div class="container">
-        <div class="row">
-           
-            <div class="col-xl-7">
-                <div class="welcome-image-box style2">
-                    <img src="assets/images/resources/welcome-3.jpg" alt="Awesome Image">
-                    <div class="experience-box">
-                        <h2>20</h2>
-                        <h3>Years of<br> practicing</h3>    
-                    </div>
-                </div>    
-            </div>
-            
-            <div class="col-xl-5">
-                <div class="welcome-content-box style2">
-                    <div class="sec-title">
-                        <h2><span>We make</span> a difference<br> in their life</h2>
-                    </div>
-                    <div class="inner-content">
-                        <h3>There are many variations of pass of lorem ipsum available but the majority have suffered alteration in some form.</h3>
-                        <div class="text">
-                            <p>Injected humour randomised words which don't look even slightly believable you need to be sure there isn't anything embarrassing.</p>
-                        </div>
-                        <div class="bottom-box">
-                            <div class="author-info-box1">
-                                <div class="image-box">
-                                    <div class="inner">
-                                        <img src="assets/images/resources/author-1.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <div class="signature-box">
-                                    <img src="assets/images/resources/signature.png" alt="Signature">
-                                </div>    
-                            </div>
-                        
-                        </div>
-                    </div>    
-                </div>    
-            </div>
-            
-        </div>
-    </div>
-</section>
 <!--End Welcome Area-->
 
 
 
 <!--Start Slogan Area-->
-<section class="slogan-area" style="background-image: url(assets/images/parallax-background/slogan-area-bg.jpg)">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="slogan-content">
-                    <div class="left paroller">
-                        <div class="title">
-                            <h2>Are you looking for a eye care<br> consultation?</h2>
-                        </div>
-                    </div>
-                    <div class="right">
-                        <div class="btns-box">
-                            <a class="btn-one" href="#"><span class="txt">Book Appointment<i class="fa fa-angle-double-right round" aria-hidden="true"></i></span></a>
-                        </div> 
-                    </div>
-                    
-                </div>    
-            </div>    
-        </div>
-    </div>
-</section>
+
 <!--End Slogan Area-->
 
 <!--Start subscribe Area-->
-<section class="subscribe-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-               
-                <div class="left pull-left">
-                    <div class="subscribe-social-links">
-                        <ul>
-                            <li>
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a> 
-                            </li>
-                        </ul>
-                    </div>    
-                </div>
-                
-                <div class="right pull-right">
-                    <div class="subscribe-content-box clearfix">
-                        <div class="subscribe-title">
-                            <h3>Newsletter</h3>
-                        </div>
-                        <div class="subscribe-box">
-                            <form class="subscribe-form black_ver" action="#">
-                                <input type="email" name="email" placeholder="Your email address">
-                                <button type="submit"><i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-</section>
+
 <!--End subscribe Area-->
+
+<!--Start footer area-->  
 
 <!--Start footer area-->  
 <footer class="footer-area">
@@ -587,17 +407,17 @@
         <div class="container">
             <div class="row">
                 <!--Start single footer widget-->
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.1s">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 wow animated fadeInUp" data-wow-delay="0.1s">
                     <div class="single-footer-widget marbtm">
                         <div class="our-company-info">
                             <div class="footer-logo">
-                                <a href="index.html"><img src="assets/images/footer/footer-logo.png" alt="Awesome Footer Logo" title="Logo"></a>    
+                                <a href="index.html"><img src="assets/images/logo/light.png" alt="Awesome Footer Logo" title="Logo"></a>    
                             </div>
                             <div class="text">
-                                <p>There are many variations of passages of lorem ipsum available, but the majority suffered.</p>
+                                <p>We are a team of experienced eye doctors dedicated to providing the higest quality of eye care.</p>
                             </div>
                             <div class="btns-box">
-                                <a class="btn-one style2" href="#">
+                                <a class="btn-one style2" href="contact.html">
                                     <span class="txt">Book Appointment<i class="fa fa-angle-double-right round" aria-hidden="true"></i></span>
                                 </a>
                             </div>
@@ -606,66 +426,30 @@
                 </div>
                 <!--End single footer widget-->
                 <!--Start single footer widget-->
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.3s">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 wow animated fadeInUp" data-wow-delay="0.3s">
                     <div class="single-footer-widget martop16 marbtm">
                         <div class="title">
-                            <h3>Links</h3>
+                            <h3 style="text-align:center;">Links</h3>
                         </div>
-                        <div class="link1 clearfix">
-                            <ul class="pull-left">
-                                <li><a href="#">About</a></li>    
-                                <li><a href="#">Treatments</a></li>             
-                                <li><a href="#">Our Doctors</a></li>             
-                                <li><a href="#">Before & After</a></li>             
+                        <div class="center">
+                            <ul class="center-list">
+                                <li><a href="#">Home</a></li>    
+                                <li><a href="#">About</a></li>             
+                                <li><a href="#">Tretments</a></li>            
+                                <li><a href="#">Contact</a></li>             
                                 <li><a href="#">Site Map</a></li>                         
                             </ul>
-                            <ul class="pull-left marlft40">
-                                <li><a href="#">Contact</a></li>    
-                                <li><a href="#">Help</a></li>    
-                                <li><a href="#">Privacy Policy</a></li>    
-                                <li><a href="#">Appointment</a></li>    
-                            </ul>
+							
+                            
                         </div>
                     </div>
                 </div>
                 <!--End single footer widget-->
                 <!--Start single footer widget-->
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.5s">
-                    <div class="single-footer-widget martop16">
-                        <div class="title">
-                            <h3>News</h3>
-                        </div>
-                        <ul class="footer-news-links clearfix">
-                            <li class="single-news">
-                                <div class="img-holder">
-                                    <img src="assets/images/footer/footer-news-1.jpg" alt="Awesome Image">
-                                    <div class="overlay-content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                                <div class="title-holder">
-                                    <p>Jan 16, 2020</p>
-                                    <h5><a href="#">The best eye care services for kids</a></h5>
-                                </div>    
-                            </li>
-                            <li class="single-news">
-                                <div class="img-holder">
-                                    <img src="assets/images/footer/footer-news-2.jpg" alt="Awesome Image">
-                                    <div class="overlay-content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                                <div class="title-holder">
-                                    <p>Jan 16, 2020</p>
-                                    <h5><a href="#">You’re nothing without  your eyes</a></h5>
-                                </div>    
-                            </li>
-                        </ul>                     	  
-                    </div>
-                </div>
+                
                 <!--End single footer widget-->
                 <!--Start single footer widget-->
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.7s">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 wow animated fadeInUp" data-wow-delay="0.7s">
                     <div class="single-footer-widget pdtop martop16">
                         <div class="title">
                             <h3>Contact</h3>
@@ -676,8 +460,11 @@
                                     <div class="icon">
                                         <span class="icon-telephone thm-clr"></span>
                                     </div>
-                                    <div class="text">
-                                        <p><a href="tel:+11987654321">666 888 0000</a></p>
+                                   <div class="text">
+                                        <p><a href="tel:+918008060217">+91 80080 60217</a></p>
+                                    </div>
+                                     <div class="text">
+                                        <p><a href="tel:04079688664">040 79688664</a></p>
                                     </div>
                                 </li>
                                 <li>
@@ -685,7 +472,7 @@
                                         <span class="icon-email thm-clr"></span>
                                     </div>
                                     <div class="text">
-                                        <p><a href="mailto:info@templatepath.com">needhelp@company.com</a></p>
+                                        <p><a href="mailto:info@srisainethralaya.com">info@srisainethralaya.com</a></p>
                                     </div>
                                 </li>
                                 <li>
@@ -693,7 +480,7 @@
                                         <span class="icon-pin-1 thm-clr"></span>
                                     </div>
                                     <div class="text">
-                                        <p>66 broklyn golden street line<br> New York, USA</p>
+                                        <p>BN Reddy Rd, Balaji Colony Phase 2, Hastinapuram <br>  Hyderabad, Telangana 500035</p>
                                     </div>
                                 </li> 
                             </ul>
@@ -705,11 +492,11 @@
         </div>
     </div>
     
-    <div class="footer-bottom">
+   <div class="footer-bottom">
         <div class="container">
             <div class="outer-box">
                 <div class="copyright-text text-center">
-                    <p>&copy; Copyright 2020 by <a href="#">oktilcal</a></p>
+                    <p>&copy; recived by 2023  <a href="#">Sri Sai Nethralaya</a></p>
                 </div>
             </div>    
         </div>    
